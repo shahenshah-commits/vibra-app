@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>VIBRA — Luxury Social Experience</title>
+  <link rel="stylesheet" href="vibra.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div id="app">
+    <nav class="bottom-nav">
+      <div style="display: none; @media(min-width:768px){display:block;} margin-bottom: 30px; text-align: center;">
+        <span style="font-size: 24px; font-weight: 800; background: linear-gradient(135deg, var(--accent-cyan), var(--accent-pink)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">VIBRA</span>
+      </div>
+      
+      <a href="#" class="nav-item active" data-nav="feed">
+        <i class="fa-solid fa-house" style="font-size: 20px;"></i>
+        <span>Home</span>
+      </a>
+      <a href="#" class="nav-item" data-nav="explore">
+        <i class="fa-solid fa-compass" style="font-size: 20px;"></i>
+        <span>Explore</span>
+      </a>
+      <a href="#" class="nav-item" data-nav="create">
+        <i class="fa-solid fa-plus-square" style="font-size: 22px; color: var(--accent-cyan);"></i>
+        <span>Create</span>
+      </a>
+      <a href="#" class="nav-item" data-nav="reels">
+        <i class="fa-solid fa-clapperboard" style="font-size: 20px;"></i>
+        <span>Reels</span>
+      </a>
+      <a href="#" class="nav-item" data-nav="profile">
+        <i class="fa-solid fa-user" style="font-size: 20px;"></i>
+        <span>Profile</span>
+      </a>
+    </nav>
+
+    <main id="view-container" class="main-content">
+      </main>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
